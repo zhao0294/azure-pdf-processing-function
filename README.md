@@ -6,9 +6,9 @@ This project demonstrates a **serverless PDF processing solution** using Azure F
 
 ## 🏗️ Architecture
 
-```
-![Architecture Diagram](./architecture_v2.png)
-```
+
+![Architecture Diagram](https://github.com/zhao0294/azure-pdf-processing-function/blob/main/architecture_v2.png?raw=true)
+
 
 ### Key Components:
 - **Azure Functions** - Serverless compute platform
@@ -207,9 +207,8 @@ az functionapp restart --name <function-app> --resource-group <rg>
 
 ## 🎥 Video Demonstration
 
-### 📹 Complete Project Walkthrough
 
-Watch the full 10-minute demonstration of the Azure PDF Processing Function project:
+Watch the demonstration of the Azure PDF Processing Function project:
 
 **🎬 [View on YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ) - Azure PDF Processing Function - Complete Demo**
 
