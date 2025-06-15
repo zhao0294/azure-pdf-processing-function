@@ -7,7 +7,7 @@ This project demonstrates a **serverless PDF processing solution** using Azure F
 ## 🏗️ Architecture
 
 ```
-PDF Upload → Azure Storage (input) → Azure Function → Form Recognizer → OpenAI → Processing Report → Azure Storage (output)
+![Architecture Diagram](./architecture_v2.png)
 ```
 
 ### Key Components:
@@ -205,40 +205,13 @@ az functionapp show --name <function-app> --resource-group <rg>
 az functionapp restart --name <function-app> --resource-group <rg>
 ```
 
-## 🎥 Video Demonstration Points
+## 🎥 Video Demonstration
 
-### Minute 1-2: Introduction & Architecture
-- Project overview and business value
-- Architecture diagram walkthrough
-- Key Azure services explanation
+### 📹 Complete Project Walkthrough
 
-### Minute 3-4: Code Structure
-- Function implementation highlights
-- Configuration and deployment setup
-- Dependencies and requirements
+Watch the full 10-minute demonstration of the Azure PDF Processing Function project:
 
-### Minute 5-7: Live Demo
-- Upload PDF to Azure Storage
-- Show real-time processing
-- Review generated output report
-
-### Minute 8-9: Advanced Features
-- Error handling and monitoring
-- Scalability considerations
-- Cost optimization
-
-### Minute 10: Summary & Next Steps
-- Key takeaways
-- Potential enhancements
-- Production considerations
-
-## 🚀 Future Enhancements
-
-- **Multi-format Support**: Word, Excel, PowerPoint processing
-- **Batch Processing**: Handle multiple files simultaneously
-- **Custom AI Models**: Fine-tuned models for specific document types
-- **Integration APIs**: REST endpoints for external applications
-- **Advanced Analytics**: Document classification and entity extraction
+**🎬 [View on YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ) - Azure PDF Processing Function - Complete Demo**
 
 ## 📝 License
 
@@ -255,8 +228,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Built with ❤️ for CST8917 Lab Assignment**
-
-# 检查这些文件是否被.gitignore正确排除
-ls -la local.settings.json  # 包含API密钥
-ls -la .env                 # 环境变量
-ls -la venv/                # 虚拟环境
