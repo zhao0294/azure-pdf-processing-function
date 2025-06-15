@@ -210,7 +210,7 @@ az functionapp restart --name <function-app> --resource-group <rg>
 
 Watch the demonstration of the Azure PDF Processing Function project:
 
-**🎬 [View on YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ) - Azure PDF Processing Function - Complete Demo**
+**🎬 [View on YouTube](https://youtu.be/eoHKSBvpav8) - Azure PDF Processing Function - Complete Demo**
 
 ## 📝 License
 
