@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "YOUR_AZURE_STORAGE_CONNECTION_STRING",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "COGNITIVE_SERVICES_ENDPOINT": "https://your-form-recognizer.cognitiveservices.azure.com/",
+    "COGNITIVE_SERVICES_KEY": "YOUR_FORM_RECOGNIZER_API_KEY",
+    "AZURE_OPENAI_ENDPOINT": "https://your-openai.cognitiveservices.azure.com/",
+    "AZURE_OPENAI_KEY": "YOUR_AZURE_OPENAI_API_KEY",
+    "CHAT_MODEL_DEPLOYMENT_NAME": "gpt-35-turbo"
+  }
+} 
